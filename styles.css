@@ -1,0 +1,166 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-position: 100%;
+}
+/*inicio de header*/
+.container-fluid{
+    background-color:#005F40ff;
+    
+    }
+.case-logo{
+    margin-right: 450px;
+}
+.nav-link{
+color: white !important;
+}
+.navbar-brand{
+    color: white !important
+}
+.btn{
+    color: white;
+}
+/*final de header*/
+
+
+
+/*inicio de footer*/
+.footer{
+    background-color: #005F40ff;
+    padding: 70px;
+    margin-top: 100px;
+}
+.pin{
+    height: 50px;
+    width: 50px;
+}
+.case-info{
+    color: white;
+    margin-left: 750px;
+    
+}
+.redes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.rason-social{
+    color: white;
+    margin-right: 650px;
+   
+}
+/*final de footer*/
+
+/*inicio de carrucel de imagenes home*/
+.carrusel-imagenes{
+display: grid;
+grid-template-rows: 350px;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.mascotas{
+    width: 100%;
+    height: 100%;
+}
+.texto-carrusel{
+    justify-content: center;
+}
+h1{
+   display: flex;
+   justify-content: center;
+   color: #40005fff;
+   
+}
+p{
+    color: #40005fff;
+    display: flex;
+    justify-content: center;
+}
+.grid-item{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+/*final de carrucel de imagenes hoome*/
+
+/*inicio sección info*/
+.nosotros-info{
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.imagen-nosotros{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+.texto-nosotros{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+.case-nosotros{
+    margin-top: 200px;
+}
+
+h2{
+    margin-left: 150px;
+}
+/*final sección info*/
+
+.carrusel-productos-gato{
+display: flex;
+justify-content: center;
+}
+
+.carousel-control-next-icon{
+
+    color: black;
+    
+}
+
+@media screen and (max-width: 468) {
+.container-fluid{
+
+    height: 30px;
+    width: 30px;
+}
+}
+
+.case-comunidad{
+display: flex;
+justify-content: center;
+
+}
+.info-comunidad{
+color: purple;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.opinion uno{
+display: flex;
+justify-content: center;
+margin-right: 100px;
+
+}
+.caja{
+
+display: flex;
+justify-content: center;
+
+}
+.caja-preguntas{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+
+
