@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-position: 100%;
+}
+
+
+/*Inicio header*/
+.container-fluid{
+    
+    background-color:#005F40ff;
+    
+    
+    .case-logo{
+        
+        margin-right: 450px;
+    
+        
+        }
+        .nav-link{
+            
+            color: white !important;
+    
+            
+            }
+            .navbar-brand{
+                color: white !important
+            }
+            .btn{
+                color: white;
+            }
+    }
+/*Final header*/
+
+/*Inicio footer*/
+.footer{
+    
+    background-color: #005F40ff;
+    padding: 70px;
+    margin-top: 100px;
+
+    .pin{
+        height: 50px;
+        width: 50px;
+    }
+    .case-info{
+        color: white;
+        margin-left: 750px;
+        
+    }
+    .redes{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .rason-social{
+        color: white;
+        margin-right: 650px;
+       
+    }
+}
+/*Final footer*/
