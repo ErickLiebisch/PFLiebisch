@@ -1,0 +1,28 @@
+/*Inicio header*/
+@import "../base/variables";
+
+.container-fluid{
+    
+    background-color:$color-principla-verde;
+    
+    
+    .case-logo{
+        
+        margin-right: 450px;
+    
+        
+        }
+        .nav-link{
+            
+            color: white !important;
+    
+            
+            }
+            .navbar-brand{
+                color: white !important
+            }
+            .btn{
+                color: white;
+            }
+    }
+/*Final header*/
