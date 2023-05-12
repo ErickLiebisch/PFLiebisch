@@ -1,0 +1,29 @@
+@import "../base/extends";
+
+
+.carrusel-productos-perro{
+    
+    @extend %carrusel-producto-tamaños-caja;
+
+    .imagen-perro{
+        @extend %tamaño-estandar-imagenes-carrusel;
+}
+
+.texto-perro {
+
+@extend %texto-nombre-producto;
+}
+
+.titulo-productos-collar{
+
+@extend %caja-titúlo-estandar-página;
+
+.textoperro{
+
+    @extend %texto-general-titulo-página;
+
+}
+}
+
+}
+

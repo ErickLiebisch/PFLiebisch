@@ -1,0 +1,33 @@
+
+@import "../base/variables";
+
+%carrusel-producto-tamaños-caja {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+%tamaño-estandar-imagenes-carrusel {
+    width: 499.42px;
+height: 450px;
+}
+
+%texto-nombre-producto {
+    display: flex;
+    justify-content: center;
+    color: $color-texto-galerias_morado;
+}
+
+%caja-titúlo-estandar-página{
+    display: flex;
+    justify-content: center;
+    }
+
+%texto-general-titulo-página{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: $color-texto-galerias_morado;
+
+}

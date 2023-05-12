@@ -64,5 +64,93 @@ body {
 }
 
 /*Final header*/
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #40005f;
+}
+
+p {
+  color: #40005f;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nosotros-info {
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.nosotros-info .imagen-nosotros {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+.nosotros-info .case-nosotros {
+  margin-top: 200px;
+}
+.nosotros-info .case-nosotros h2 {
+  margin-left: 150px;
+}
+
+.carrusel-productos-gato {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.carrusel-productos-gato .imagenpez {
+  width: 499.42px;
+  height: 450px;
+}
+.carrusel-productos-gato .textopez {
+  display: flex;
+  justify-content: center;
+  color: #40005f;
+}
+.carrusel-productos-gato .titulo-productos-pez {
+  display: flex;
+  justify-content: center;
+}
+.carrusel-productos-gato .titulo-productos-pez .textoproductospez {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #40005f;
+}
+
+.carrusel-productos-perro {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.carrusel-productos-perro .imagen-perro {
+  width: 499.42px;
+  height: 450px;
+}
+
+.carrusel-productos-perro .texto-perro {
+  display: flex;
+  justify-content: center;
+  color: #40005f;
+}
+
+.carrusel-productos-perro .titulo-productos-collar {
+  display: flex;
+  justify-content: center;
+}
+
+.carrusel-productos-perro .titulo-productos-collar .textoperro {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #40005f;
+}
 
 /*# sourceMappingURL=style.css.map */
