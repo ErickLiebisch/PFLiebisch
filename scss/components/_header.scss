@@ -1,14 +1,20 @@
 /*Inicio header*/
 @import "../base/variables";
 
-.container-fluid{
+
+header{
+
+
+    .container-fluid{
     
     background-color:$color-principla-verde;
+   
+    
     
     
     .case-logo{
         
-        margin-right: 450px;
+        padding-right: 450px;
     
         
         }
@@ -25,4 +31,5 @@
                 color: white;
             }
     }
+}
 /*Final header*/

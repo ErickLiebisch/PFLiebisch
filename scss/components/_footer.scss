@@ -5,6 +5,9 @@
     background-color: $color-principla-verde;
     padding: 70px;
     margin-top: 100px;
+    display: flex;
+   
+    }
 
     .pin{
         height: 50px;
@@ -12,7 +15,7 @@
     }
     .case-info{
         color: white;
-        margin-left: 750px;
+        padding-left: 750px;
         
     }
     .redes{
@@ -22,8 +25,8 @@
     }
     .rason-social{
         color: white;
-        margin-right: 650px;
+        padding-right: 650px;
        
     }
-}
+
 /*Final footer*/

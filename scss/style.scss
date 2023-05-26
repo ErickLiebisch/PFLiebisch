@@ -1,11 +1,11 @@
-body{
-    background-color: rgb(255, 255, 255);
-    background-position: 100%;
+html{
+    overflow-x:hidden;
+   
 }
 
 
-@import "./components/carrusel-imagenes-home"; @import "./components/footer"; @import "./components/header"; @import "./base/textos-generales";@import "./components/info-nosotros";@import "./components/carrusel-gatos.scss";@import "./components/carrusel-perros.scss";
 
+@import "./components/carrusel-imagenes-home"; @import "./components/footer"; @import "./components/header"; @import "./base/textos-generales";@import "./components/info-nosotros";@import "./components/carrusel-gatos.scss";@import "./components/carrusel-perros.scss";
 
 
 
