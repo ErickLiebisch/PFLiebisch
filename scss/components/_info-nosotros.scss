@@ -1,13 +1,14 @@
 .nosotros-info{
-    
+    display: flex;
+    justify-content: top;
     display: grid;
-    grid-template-rows: 500px;
+    grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
 
     .imagen-nosotros{
-        width: 100%;
-        height: 100%;
-        margin-top: 50px;
+        width: 75%;
+        height: 75%;
+        
     }
 
     
@@ -19,4 +20,38 @@
             margin-left: 150px;
         }
     }
+}
+@media (max-width: 600px){
+    .nosotros-info{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: baseline;
+        flex-direction: column-reverse;
+    .case-nosotros{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        align-content: space-between;
+        flex-wrap: nowrap;
+        h2{
+            padding-left: 20px;
+        }
+
+
+
+    }
+    .gato-nosotros{
+        display: flex;
+        justify-content: center;
+    .imagen-nosotros{
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        height: 75%;
+        
+    }
+}
+}
 }

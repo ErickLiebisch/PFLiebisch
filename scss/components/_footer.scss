@@ -1,12 +1,18 @@
 /*Inicio footer*/
 @import "../base/variables";
-.footer{
+footer{
     
     background-color: $color-principla-verde;
-    padding: 70px;
-    margin-top: 100px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    .contenedor-footer{
    
+    display: flex;
+    flex-direction: column;
+    
     }
 
     .pin{
@@ -15,18 +21,19 @@
     }
     .case-info{
         color: white;
-        padding-left: 750px;
+        
         
     }
     .redes{
-        margin-top: 50px;
+        
         display: flex;
         justify-content: center;
     }
     .rason-social{
         color: white;
-        padding-right: 650px;
+        
        
     }
+}
 
 /*Final footer*/

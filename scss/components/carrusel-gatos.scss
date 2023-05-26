@@ -33,3 +33,34 @@ color: $color-texto-galerias_morado;
         }
 }
 }
+
+@media (max-width: 600px){
+
+    .carrusel-productos-gato{
+        .imagenpez {
+            width: 350px;
+            height: 350px;
+        }
+    
+    .titulo-productos-pez {
+    
+
+    .textoproductospez {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        color: #40005f;
+    }
+}
+
+.textopez{
+    display: flex;
+    justify-content: center;
+    color: $color-texto-galerias_morado;
+    
+     font-size: 1rem;
+    
+    }
+
+} 
+}

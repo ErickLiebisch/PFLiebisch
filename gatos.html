@@ -9,45 +9,47 @@
   </head>
   <body>
     <!--inicio de header-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid pepe">
-        <a class="navbar-brand" href="index.html">HOME</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link nosotros active " aria-current="page" href="nosotros.html">NOSOTROS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contáctanos.html">CONTACTOS</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                PRODUCTOS
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="gatos.html">GATITOS</a></li>
-                <li><a class="dropdown-item" href="perros.html">PERRITOS</a></li>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid pepe">
+            <a class="navbar-brand" href="index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link nosotros active " aria-current="page" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contáctanos.html">CONTACTOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRODUCTOS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="gatos.html">GATITOS</a></li>
+                    <li><a class="dropdown-item" href="perros.html">PERRITOS</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"></a>
+                </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled"></a>
-            </li>
-          </ul>
-          <div class="case-logo">
-            <a href="index.html"><img class="gato" src="./imagenes/gatito.png" alt="logo"></a>
-            <a href="index.html"><img class="font" src="./imagenes/logo.png" alt="logo"></a>
+              <div class="case-logo">
+                <a href="index.html"><img class="gato" src="./imagenes/gatito.png" alt="logo"></a>
+                <a href="index.html"><img class="font" src="./imagenes/logo.png" alt="logo"></a>
+              </div>
+              
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
           </div>
-          
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+        </nav>
+        </header>
 <!--final de header-->
 
 <!--inicio contenido index-->
@@ -89,6 +91,7 @@
 
 <!--inicio de footer-->
 <footer class="footer">
+  <div class="contenedor-footer">
   <div class="redes">
     <a href=""><img src="./imagenes/icons8-instagram-50 (2).png" alt=""></a>
     <a href=""><img src="./imagenes/icons8-facebook-50.png" alt=""></a>
@@ -103,6 +106,7 @@
       <li>Número de contacto: +57 310 573 8458</li>
     </ul>
   </div>
+</div>
 </footer>
 <!--final de footer-->
 

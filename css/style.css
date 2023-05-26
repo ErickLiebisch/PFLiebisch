@@ -1,5 +1,7 @@
-html {
-  overflow-x: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*Inicio galeria index*/
@@ -9,12 +11,12 @@ html {
 }
 .div-carrusel-index .carrusel-imagenes {
   display: grid;
-  grid-template-rows: 350px;
+  grid-template-rows: 1fr;
   grid-template-columns: repeat(4, 1fr);
 }
 .div-carrusel-index .carrusel-imagenes .mascotas {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 75%;
 }
 .div-carrusel-index .carrusel-imagenes .texto-carrusel {
   justify-content: center;
@@ -39,36 +41,38 @@ html {
 }
 /*Final galeria index*/
 /*Inicio footer*/
-.footer {
+footer {
   background-color: #005f40;
-  padding: 70px;
-  margin-top: 100px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
 }
-
-.pin {
+footer .contenedor-footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .pin {
   height: 50px;
   width: 50px;
 }
-
-.case-info {
+footer .case-info {
   color: white;
-  padding-left: 750px;
 }
-
-.redes {
-  margin-top: 50px;
+footer .redes {
   display: flex;
   justify-content: center;
 }
-
-.rason-social {
+footer .rason-social {
   color: white;
-  padding-right: 650px;
 }
 
 /*Final footer*/
 /*Inicio header*/
+header {
+  width: 100%;
+}
 header .container-fluid {
   background-color: #005f40;
 }
@@ -103,14 +107,15 @@ a {
 }
 
 .nosotros-info {
+  display: flex;
+  justify-content: top;
   display: grid;
-  grid-template-rows: 500px;
+  grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
 }
 .nosotros-info .imagen-nosotros {
-  width: 100%;
-  height: 100%;
-  margin-top: 50px;
+  width: 75%;
+  height: 75%;
 }
 .nosotros-info .case-nosotros {
   margin-top: 200px;
@@ -119,6 +124,36 @@ a {
   margin-left: 150px;
 }
 
+@media (max-width: 600px) {
+  .nosotros-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: baseline;
+    flex-direction: column-reverse;
+  }
+  .nosotros-info .case-nosotros {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .nosotros-info .case-nosotros h2 {
+    padding-left: 20px;
+  }
+  .nosotros-info .gato-nosotros {
+    display: flex;
+    justify-content: center;
+  }
+  .nosotros-info .gato-nosotros .imagen-nosotros {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 75%;
+  }
+}
 .carrusel-productos-gato {
   display: flex;
   justify-content: center;
@@ -145,6 +180,24 @@ a {
   color: #40005f;
 }
 
+@media (max-width: 600px) {
+  .carrusel-productos-gato .imagenpez {
+    width: 350px;
+    height: 350px;
+  }
+  .carrusel-productos-gato .titulo-productos-pez .textoproductospez {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #40005f;
+  }
+  .carrusel-productos-gato .textopez {
+    display: flex;
+    justify-content: center;
+    color: #40005f;
+    font-size: 1rem;
+  }
+}
 .carrusel-productos-perro {
   display: flex;
   justify-content: center;
@@ -173,6 +226,11 @@ a {
   justify-content: center;
   font-size: 50px;
   color: #40005f;
+}
+
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 /*# sourceMappingURL=style.css.map */
