@@ -228,6 +228,24 @@ a {
   color: #40005f;
 }
 
+@media (max-width: 600px) {
+  .carrusel-productos-perro .imagen-perro {
+    width: 350px;
+    height: 350px;
+  }
+  .carrusel-productos-perro .titulo-productos-collar .textoperro {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #40005f;
+  }
+  .carrusel-productos-perro .texto-perro {
+    display: flex;
+    justify-content: center;
+    color: #40005f;
+    font-size: 1rem;
+  }
+}
 html, body {
   max-width: 100% !important;
   overflow-x: hidden !important;
